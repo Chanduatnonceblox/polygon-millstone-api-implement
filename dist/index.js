@@ -15,30 +15,95 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const ethers_1 = require("ethers");
 const abi_json_1 = __importDefault(require("./abi.json"));
 require("dotenv/config");
-const fs_1 = __importDefault(require("fs"));
+const axios_1 = __importDefault(require("axios"));
+const promises_1 = require("timers/promises");
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
-        const contractAddress = "0x1AB83AC3d7ed09f5d9a35712710D04F325db90fF";
-        const waitNumber = 12;
-        const providerUrl = "https://polygon-mumbai.g.alchemy.com/v2/CrIMX1vhpKhskXca14Dnb1GJfuS69OMi";
-        const provider = new ethers_1.ethers.JsonRpcProvider(providerUrl);
-        const erc20Contract = new ethers_1.ethers.Contract(contractAddress, abi_json_1.default, provider);
+        const contractAddress = "0x1AB83AC3d7ed09f5d9a35712710D04F325db90fF"; // add the erc20 token contract;
+        const waitNumber = 2;
+        const providerUrl = process.env.MUMBAI_RPC;
+        const provider = new ethers_1.ethers.JsonRpcProvider("https://rpc-mumbai.maticvigil.com");
+        const contract = new ethers_1.ethers.Contract(contractAddress, abi_json_1.default, provider);
         try {
-            erc20Contract.on("Transfer", (from, to, value, event) => __awaiter(this, void 0, void 0, function* () {
-                let blockNumber = yield provider.getBlockNumber();
+            contract.on("Transfer", (from, to, value, event) => __awaiter(this, void 0, void 0, function* () {
+                // let blockNumber = await provider.getBlockNumber();
+                let finalized = yield axios_1.default.post("https://rpc-mumbai.maticvigil.com", {
+                    jsonrpc: "2.0",
+                    method: "eth_getBlockByNumber",
+                    params: ["finalized", true],
+                    id: 1,
+                    headers: { "Content-Type": "application/json" },
+                });
+                // if (
+                //   parseInt(finalized.data.result.number, 16) >= event.log.blockNumber
+                // ) {
+                //   console.log(
+                //     "finalized block",
+                //     parseInt(finalized.data.result.number, 16),
+                //     "event block",
+                //     event.log.blockNumber
+                //   );
+                //   console.log(
+                //     `Transfer from ${from} to ${to}, Value: ${value.toString()} confirmed`
+                //   );
+                // } else {
+                //   console.log(
+                //     "finalized block",
+                //     parseInt(finalized.data.result.number, 16),
+                //     "event block",
+                //     event.log.blockNumber
+                //   );
+                //   console.log(
+                //     `Transfer from ${from} to ${to}, Value: ${value.toString()} not confirmed`
+                //   );
+                // }
                 do {
-                    blockNumber = yield provider.getBlockNumber();
-                    console.log("checking block", blockNumber);
-                    if (blockNumber - event.log.blockNumber >= waitNumber) {
-                        console.log(`diffrence number ${blockNumber - event.log.blockNumber}`);
-                        console.log(`latest block ${blockNumber} tx block ${event.log.blockNumber}`);
+                    finalized = yield axios_1.default.post("https://rpc-mumbai.maticvigil.com", {
+                        jsonrpc: "2.0",
+                        method: "eth_getBlockByNumber",
+                        params: ["finalized", true],
+                        id: 1,
+                        headers: { "Content-Type": "application/json" },
+                    });
+                    if (parseInt(finalized.data.result.number, 16) >= event.log.blockNumber) {
+                        console.log("finalized block", parseInt(finalized.data.result.number, 16));
+                        console.log("event block", event.log.blockNumber);
                         console.log(`Transfer from ${from} to ${to}, Value: ${value.toString()} confirmed`);
-                        let data = { "from": from, "to": to, "value": value.toString() };
-                        fs_1.default.writeFileSync("data.json", JSON.stringify(data));
                     }
-                } while (blockNumber - event.log.blockNumber < waitNumber);
+                    else {
+                        console.log(`diffrence number ${parseInt(finalized.data.result.number, 16) - event.log.blockNumber}`);
+                        console.log("finalized block from API ", parseInt(finalized.data.result.number, 16));
+                        console.log("event block from tx hash ", event.log.blockNumber);
+                        console.log(`Transfer from ${from} to ${to}, Value: ${value.toString()} not confirmed`);
+                        yield (0, promises_1.setTimeout)(5000);
+                        console.log("Waited an additional 5s");
+                    }
+                } while (parseInt(finalized.data.result.number, 16) < event.log.blockNumber);
+                // do {
+                //   blockNumber = await provider.getBlockNumber();
+                //   if (blockNumber - event.log.blockNumber >= waitNumber) {
+                //     console.log("checking block", blockNumber);
+                //     console.log(
+                //       `diffrence number ${blockNumber - event.log.blockNumber}`
+                //     );
+                //     console.log(
+                //       `latest block ${blockNumber} tx block ${event.log.blockNumber}`
+                //     );
+                //     console.log(
+                //       `Transfer from ${from} to ${to}, Value: ${value.toString()} confirmed`
+                //     );
+                //   }
+                // } while (blockNumber - event.log.blockNumber < waitNumber);
             }));
             console.log(`Listening for ERC-20 Transfer events on contract: ${contractAddress}`);
+            let finalized = yield axios_1.default.post("https://rpc-mumbai.maticvigil.com", {
+                jsonrpc: "2.0",
+                method: "eth_getBlockByNumber",
+                params: ["finalized", true],
+                id: 1,
+                headers: { "Content-Type": "application/json" },
+            });
+            console.log(finalized.data);
         }
         catch (error) {
             console.log(error);
