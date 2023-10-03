@@ -22,18 +22,12 @@ function main() {
         const contractAddress = "0x1AB83AC3d7ed09f5d9a35712710D04F325db90fF"; // add the erc20 token contract;
         const waitNumber = 2;
         const providerUrl = process.env.MUMBAI_RPC;
-        const provider = new ethers_1.ethers.JsonRpcProvider("https://rpc-mumbai.maticvigil.com");
+        const provider = new ethers_1.ethers.JsonRpcProvider(providerUrl);
         const contract = new ethers_1.ethers.Contract(contractAddress, abi_json_1.default, provider);
         try {
             contract.on("Transfer", (from, to, value, event) => __awaiter(this, void 0, void 0, function* () {
                 // let blockNumber = await provider.getBlockNumber();
-                let finalized = yield axios_1.default.post("https://rpc-mumbai.maticvigil.com", {
-                    jsonrpc: "2.0",
-                    method: "eth_getBlockByNumber",
-                    params: ["finalized", true],
-                    id: 1,
-                    headers: { "Content-Type": "application/json" },
-                });
+                let finalized;
                 // if (
                 //   parseInt(finalized.data.result.number, 16) >= event.log.blockNumber
                 // ) {
@@ -58,7 +52,7 @@ function main() {
                 //   );
                 // }
                 do {
-                    finalized = yield axios_1.default.post("https://rpc-mumbai.maticvigil.com", {
+                    finalized = yield axios_1.default.post(providerUrl, {
                         jsonrpc: "2.0",
                         method: "eth_getBlockByNumber",
                         params: ["finalized", true],
@@ -96,7 +90,7 @@ function main() {
                 // } while (blockNumber - event.log.blockNumber < waitNumber);
             }));
             console.log(`Listening for ERC-20 Transfer events on contract: ${contractAddress}`);
-            let finalized = yield axios_1.default.post("https://rpc-mumbai.maticvigil.com", {
+            let finalized = yield axios_1.default.post(providerUrl, {
                 jsonrpc: "2.0",
                 method: "eth_getBlockByNumber",
                 params: ["finalized", true],

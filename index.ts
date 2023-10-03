@@ -9,7 +9,7 @@ async function main() {
   const waitNumber = 2;
   const providerUrl = process.env.MUMBAI_RPC;
   const provider = new ethers.JsonRpcProvider(
-    "https://rpc-mumbai.maticvigil.com"
+    providerUrl
   );
   const contract = new ethers.Contract(contractAddress, ABI, provider);
 
@@ -19,13 +19,7 @@ async function main() {
       async (from: string, to: string, value: number, event: any) => {
         // let blockNumber = await provider.getBlockNumber();
 
-        let finalized = await axios.post("https://rpc-mumbai.maticvigil.com", {
-          jsonrpc: "2.0",
-          method: "eth_getBlockByNumber",
-          params: ["finalized", true],
-          id: 1,
-          headers: { "Content-Type": "application/json" },
-        });
+        let finalized ;
 
         // if (
         //   parseInt(finalized.data.result.number, 16) >= event.log.blockNumber
@@ -52,7 +46,7 @@ async function main() {
         // }
 
         do {
-          finalized = await axios.post("https://rpc-mumbai.maticvigil.com", {
+          finalized = await axios.post(providerUrl, {
             jsonrpc: "2.0",
             method: "eth_getBlockByNumber",
             params: ["finalized", true],
@@ -118,7 +112,7 @@ async function main() {
     console.log(
       `Listening for ERC-20 Transfer events on contract: ${contractAddress}`
     );
-    let finalized = await axios.post("https://rpc-mumbai.maticvigil.com", {
+    let finalized = await axios.post(providerUrl, {
       jsonrpc: "2.0",
       method: "eth_getBlockByNumber",
       params: ["finalized", true],
