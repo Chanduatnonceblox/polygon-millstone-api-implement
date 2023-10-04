@@ -29,14 +29,15 @@ function main() {
                 for (let index = 0; index < jsonArray.length - 1; index++) {
                     let element = jsonArray[index];
                     const nextElement = jsonArray[index + 1];
-                    element.quicknode["diffrence"] =
-                        `${(Date.parse(nextElement.quicknode.time) -
-                            Date.parse(element.quicknode.time)) / 1000} sec`;
-                    element.infura["diffrence"] =
-                        `${(Date.parse(nextElement.infura.time) - Date.parse(element.infura.time)) / 1000} sec`;
-                    element.heimdallApi["diffrence"] =
-                        `${(Date.parse(nextElement.heimdallApi.time) -
-                            Date.parse(element.heimdallApi.time)) / 1000} sec`;
+                    element.quicknode["diffrence"] = `${(Date.parse(nextElement.quicknode.time) -
+                        Date.parse(element.quicknode.time)) /
+                        1000} sec`;
+                    element.infura["diffrence"] = `${(Date.parse(nextElement.infura.time) -
+                        Date.parse(element.infura.time)) /
+                        1000} sec`;
+                    element.heimdallApi["diffrence"] = `${(Date.parse(nextElement.heimdallApi.time) -
+                        Date.parse(element.heimdallApi.time)) /
+                        1000} sec`;
                     newArray.push(element);
                 }
                 console.log(newArray);

@@ -1,0 +1,982 @@
+[
+  {
+    "quicknode": {
+      "blocknumber": 40817340,
+      "time": "October 4 2023, 10:36:13 ",
+      "APIHitTime": "Wed Oct 04 2023 10:37:40 GMT+0530 (India Standard Time)",
+      "diffrence": "36 sec"
+    },
+    "infura": {
+      "blocknumber": 40817340,
+      "time": "October 4 2023, 10:36:13 ",
+      "APIHitTime": "Wed Oct 04 2023 10:37:40 GMT+0530 (India Standard Time)",
+      "diffrence": "36 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817340,
+      "time": "October 4 2023, 10:37:02 ",
+      "APIHitTime": "Wed Oct 04 2023 10:37:40 GMT+0530 (India Standard Time)",
+      "diffrence": "52 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40817354,
+      "time": "October 4 2023, 10:36:49 ",
+      "APIHitTime": "Wed Oct 04 2023 10:38:07 GMT+0530 (India Standard Time)",
+      "diffrence": "48 sec"
+    },
+    "infura": {
+      "blocknumber": 40817354,
+      "time": "October 4 2023, 10:36:49 ",
+      "APIHitTime": "Wed Oct 04 2023 10:38:07 GMT+0530 (India Standard Time)",
+      "diffrence": "48 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817354,
+      "time": "October 4 2023, 10:37:54 ",
+      "APIHitTime": "Wed Oct 04 2023 10:38:07 GMT+0530 (India Standard Time)",
+      "diffrence": "40 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40817368,
+      "time": "October 4 2023, 10:37:37 ",
+      "APIHitTime": "Wed Oct 04 2023 10:38:52 GMT+0530 (India Standard Time)",
+      "diffrence": "52 sec"
+    },
+    "infura": {
+      "blocknumber": 40817368,
+      "time": "October 4 2023, 10:37:37 ",
+      "APIHitTime": "Wed Oct 04 2023 10:38:52 GMT+0530 (India Standard Time)",
+      "diffrence": "52 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817368,
+      "time": "October 4 2023, 10:38:34 ",
+      "APIHitTime": "Wed Oct 04 2023 10:38:52 GMT+0530 (India Standard Time)",
+      "diffrence": "63 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40817386,
+      "time": "October 4 2023, 10:38:29 ",
+      "APIHitTime": "Wed Oct 04 2023 10:39:49 GMT+0530 (India Standard Time)",
+      "diffrence": "82 sec"
+    },
+    "infura": {
+      "blocknumber": 40817386,
+      "time": "October 4 2023, 10:38:29 ",
+      "APIHitTime": "Wed Oct 04 2023 10:39:49 GMT+0530 (India Standard Time)",
+      "diffrence": "0 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817386,
+      "time": "October 4 2023, 10:39:37 ",
+      "APIHitTime": "Wed Oct 04 2023 10:39:49 GMT+0530 (India Standard Time)",
+      "diffrence": "57 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40817409,
+      "time": "October 4 2023, 10:39:51 ",
+      "APIHitTime": "Wed Oct 04 2023 10:40:45 GMT+0530 (India Standard Time)",
+      "diffrence": "26 sec"
+    },
+    "infura": {
+      "blocknumber": 40817386,
+      "time": "October 4 2023, 10:38:29 ",
+      "APIHitTime": "Wed Oct 04 2023 10:40:45 GMT+0530 (India Standard Time)",
+      "diffrence": "108 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817409,
+      "time": "October 4 2023, 10:40:34 ",
+      "APIHitTime": "Wed Oct 04 2023 10:40:45 GMT+0530 (India Standard Time)",
+      "diffrence": "28 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40817422,
+      "time": "October 4 2023, 10:40:17 ",
+      "APIHitTime": "Wed Oct 04 2023 10:41:15 GMT+0530 (India Standard Time)",
+      "diffrence": "46 sec"
+    },
+    "infura": {
+      "blocknumber": 40817422,
+      "time": "October 4 2023, 10:40:17 ",
+      "APIHitTime": "Wed Oct 04 2023 10:41:15 GMT+0530 (India Standard Time)",
+      "diffrence": "0 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817422,
+      "time": "October 4 2023, 10:41:02 ",
+      "APIHitTime": "Wed Oct 04 2023 10:41:15 GMT+0530 (India Standard Time)",
+      "diffrence": "52 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40817443,
+      "time": "October 4 2023, 10:41:03 ",
+      "APIHitTime": "Wed Oct 04 2023 10:42:05 GMT+0530 (India Standard Time)",
+      "diffrence": "30 sec"
+    },
+    "infura": {
+      "blocknumber": 40817422,
+      "time": "October 4 2023, 10:40:17 ",
+      "APIHitTime": "Wed Oct 04 2023 10:42:05 GMT+0530 (India Standard Time)",
+      "diffrence": "46 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817443,
+      "time": "October 4 2023, 10:41:54 ",
+      "APIHitTime": "Wed Oct 04 2023 10:42:05 GMT+0530 (India Standard Time)",
+      "diffrence": "52 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40817456,
+      "time": "October 4 2023, 10:41:33 ",
+      "APIHitTime": "Wed Oct 04 2023 10:42:59 GMT+0530 (India Standard Time)",
+      "diffrence": "64 sec"
+    },
+    "infura": {
+      "blocknumber": 40817443,
+      "time": "October 4 2023, 10:41:03 ",
+      "APIHitTime": "Wed Oct 04 2023 10:42:59 GMT+0530 (India Standard Time)",
+      "diffrence": "94 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817456,
+      "time": "October 4 2023, 10:42:46 ",
+      "APIHitTime": "Wed Oct 04 2023 10:42:59 GMT+0530 (India Standard Time)",
+      "diffrence": "40 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40817472,
+      "time": "October 4 2023, 10:42:37 ",
+      "APIHitTime": "Wed Oct 04 2023 10:43:39 GMT+0530 (India Standard Time)",
+      "diffrence": "38 sec"
+    },
+    "infura": {
+      "blocknumber": 40817472,
+      "time": "October 4 2023, 10:42:37 ",
+      "APIHitTime": "Wed Oct 04 2023 10:43:39 GMT+0530 (India Standard Time)",
+      "diffrence": "38 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817472,
+      "time": "October 4 2023, 10:43:26 ",
+      "APIHitTime": "Wed Oct 04 2023 10:43:39 GMT+0530 (India Standard Time)",
+      "diffrence": "39 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40817489,
+      "time": "October 4 2023, 10:43:15 ",
+      "APIHitTime": "Wed Oct 04 2023 10:44:17 GMT+0530 (India Standard Time)",
+      "diffrence": "38 sec"
+    },
+    "infura": {
+      "blocknumber": 40817489,
+      "time": "October 4 2023, 10:43:15 ",
+      "APIHitTime": "Wed Oct 04 2023 10:44:17 GMT+0530 (India Standard Time)",
+      "diffrence": "38 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817489,
+      "time": "October 4 2023, 10:44:05 ",
+      "APIHitTime": "Wed Oct 04 2023 10:44:17 GMT+0530 (India Standard Time)",
+      "diffrence": "58 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40817505,
+      "time": "October 4 2023, 10:43:53 ",
+      "APIHitTime": "Wed Oct 04 2023 10:45:27 GMT+0530 (India Standard Time)",
+      "diffrence": "48 sec"
+    },
+    "infura": {
+      "blocknumber": 40817505,
+      "time": "October 4 2023, 10:43:53 ",
+      "APIHitTime": "Wed Oct 04 2023 10:45:27 GMT+0530 (India Standard Time)",
+      "diffrence": "48 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817505,
+      "time": "October 4 2023, 10:45:03 ",
+      "APIHitTime": "Wed Oct 04 2023 10:45:27 GMT+0530 (India Standard Time)",
+      "diffrence": "27 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40817517,
+      "time": "October 4 2023, 10:44:41 ",
+      "APIHitTime": "Wed Oct 04 2023 10:45:49 GMT+0530 (India Standard Time)",
+      "diffrence": "34 sec"
+    },
+    "infura": {
+      "blocknumber": 40817517,
+      "time": "October 4 2023, 10:44:41 ",
+      "APIHitTime": "Wed Oct 04 2023 10:45:49 GMT+0530 (India Standard Time)",
+      "diffrence": "34 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817517,
+      "time": "October 4 2023, 10:45:30 ",
+      "APIHitTime": "Wed Oct 04 2023 10:45:49 GMT+0530 (India Standard Time)",
+      "diffrence": "51 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40817531,
+      "time": "October 4 2023, 10:45:15 ",
+      "APIHitTime": "Wed Oct 04 2023 10:46:35 GMT+0530 (India Standard Time)",
+      "diffrence": "58 sec"
+    },
+    "infura": {
+      "blocknumber": 40817531,
+      "time": "October 4 2023, 10:45:15 ",
+      "APIHitTime": "Wed Oct 04 2023 10:46:35 GMT+0530 (India Standard Time)",
+      "diffrence": "58 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817531,
+      "time": "October 4 2023, 10:46:21 ",
+      "APIHitTime": "Wed Oct 04 2023 10:46:35 GMT+0530 (India Standard Time)",
+      "diffrence": "46 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40817547,
+      "time": "October 4 2023, 10:46:13 ",
+      "APIHitTime": "Wed Oct 04 2023 10:47:22 GMT+0530 (India Standard Time)",
+      "diffrence": "290 sec"
+    },
+    "infura": {
+      "blocknumber": 40817547,
+      "time": "October 4 2023, 10:46:13 ",
+      "APIHitTime": "Wed Oct 04 2023 10:47:22 GMT+0530 (India Standard Time)",
+      "diffrence": "290 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817547,
+      "time": "October 4 2023, 10:47:07 ",
+      "APIHitTime": "Wed Oct 04 2023 10:47:22 GMT+0530 (India Standard Time)",
+      "diffrence": "280 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40817649,
+      "time": "October 4 2023, 10:51:03 ",
+      "APIHitTime": "Wed Oct 04 2023 10:52:03 GMT+0530 (India Standard Time)",
+      "diffrence": "88 sec"
+    },
+    "infura": {
+      "blocknumber": 40817649,
+      "time": "October 4 2023, 10:51:03 ",
+      "APIHitTime": "Wed Oct 04 2023 10:52:03 GMT+0530 (India Standard Time)",
+      "diffrence": "88 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817649,
+      "time": "October 4 2023, 10:51:47 ",
+      "APIHitTime": "Wed Oct 04 2023 10:52:03 GMT+0530 (India Standard Time)",
+      "diffrence": "109 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40817685,
+      "time": "October 4 2023, 10:52:31 ",
+      "APIHitTime": "Wed Oct 04 2023 10:54:24 GMT+0530 (India Standard Time)",
+      "diffrence": "324 sec"
+    },
+    "infura": {
+      "blocknumber": 40817685,
+      "time": "October 4 2023, 10:52:31 ",
+      "APIHitTime": "Wed Oct 04 2023 10:54:24 GMT+0530 (India Standard Time)",
+      "diffrence": "324 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817685,
+      "time": "October 4 2023, 10:53:36 ",
+      "APIHitTime": "Wed Oct 04 2023 10:54:24 GMT+0530 (India Standard Time)",
+      "diffrence": "320 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40817798,
+      "time": "October 4 2023, 10:57:55 ",
+      "APIHitTime": "Wed Oct 04 2023 10:59:37 GMT+0530 (India Standard Time)",
+      "diffrence": "80 sec"
+    },
+    "infura": {
+      "blocknumber": 40817798,
+      "time": "October 4 2023, 10:57:55 ",
+      "APIHitTime": "Wed Oct 04 2023 10:59:37 GMT+0530 (India Standard Time)",
+      "diffrence": "0 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817798,
+      "time": "October 4 2023, 10:58:56 ",
+      "APIHitTime": "Wed Oct 04 2023 10:59:37 GMT+0530 (India Standard Time)",
+      "diffrence": "63 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40817822,
+      "time": "October 4 2023, 10:59:15 ",
+      "APIHitTime": "Wed Oct 04 2023 11:00:14 GMT+0530 (India Standard Time)",
+      "diffrence": "142 sec"
+    },
+    "infura": {
+      "blocknumber": 40817798,
+      "time": "October 4 2023, 10:57:55 ",
+      "APIHitTime": "Wed Oct 04 2023 11:00:14 GMT+0530 (India Standard Time)",
+      "diffrence": "222 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817822,
+      "time": "October 4 2023, 10:59:59 ",
+      "APIHitTime": "Wed Oct 04 2023 11:00:14 GMT+0530 (India Standard Time)",
+      "diffrence": "142 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40817872,
+      "time": "October 4 2023, 11:01:37 ",
+      "APIHitTime": "Wed Oct 04 2023 11:02:41 GMT+0530 (India Standard Time)",
+      "diffrence": "126 sec"
+    },
+    "infura": {
+      "blocknumber": 40817872,
+      "time": "October 4 2023, 11:01:37 ",
+      "APIHitTime": "Wed Oct 04 2023 11:02:41 GMT+0530 (India Standard Time)",
+      "diffrence": "100 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817872,
+      "time": "October 4 2023, 11:02:21 ",
+      "APIHitTime": "Wed Oct 04 2023 11:02:41 GMT+0530 (India Standard Time)",
+      "diffrence": "155 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40817917,
+      "time": "October 4 2023, 11:03:43 ",
+      "APIHitTime": "Wed Oct 04 2023 11:05:10 GMT+0530 (India Standard Time)",
+      "diffrence": "-26 sec"
+    },
+    "infura": {
+      "blocknumber": 40817904,
+      "time": "October 4 2023, 11:03:17 ",
+      "APIHitTime": "Wed Oct 04 2023 11:05:10 GMT+0530 (India Standard Time)",
+      "diffrence": "26 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817917,
+      "time": "October 4 2023, 11:04:56 ",
+      "APIHitTime": "Wed Oct 04 2023 11:05:10 GMT+0530 (India Standard Time)",
+      "diffrence": "0 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40817904,
+      "time": "October 4 2023, 11:03:17 ",
+      "APIHitTime": "Wed Oct 04 2023 11:05:13 GMT+0530 (India Standard Time)",
+      "diffrence": "598 sec"
+    },
+    "infura": {
+      "blocknumber": 40817917,
+      "time": "October 4 2023, 11:03:43 ",
+      "APIHitTime": "Wed Oct 04 2023 11:05:13 GMT+0530 (India Standard Time)",
+      "diffrence": "572 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40817917,
+      "time": "October 4 2023, 11:04:56 ",
+      "APIHitTime": "Wed Oct 04 2023 11:05:13 GMT+0530 (India Standard Time)",
+      "diffrence": "543 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818111,
+      "time": "October 4 2023, 11:13:15 ",
+      "APIHitTime": "Wed Oct 04 2023 11:14:18 GMT+0530 (India Standard Time)",
+      "diffrence": "54 sec"
+    },
+    "infura": {
+      "blocknumber": 40818111,
+      "time": "October 4 2023, 11:13:15 ",
+      "APIHitTime": "Wed Oct 04 2023 11:14:18 GMT+0530 (India Standard Time)",
+      "diffrence": "0 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818111,
+      "time": "October 4 2023, 11:13:59 ",
+      "APIHitTime": "Wed Oct 04 2023 11:14:18 GMT+0530 (India Standard Time)",
+      "diffrence": "52 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818136,
+      "time": "October 4 2023, 11:14:09 ",
+      "APIHitTime": "Wed Oct 04 2023 11:15:04 GMT+0530 (India Standard Time)",
+      "diffrence": "28 sec"
+    },
+    "infura": {
+      "blocknumber": 40818111,
+      "time": "October 4 2023, 11:13:15 ",
+      "APIHitTime": "Wed Oct 04 2023 11:15:04 GMT+0530 (India Standard Time)",
+      "diffrence": "54 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818136,
+      "time": "October 4 2023, 11:14:51 ",
+      "APIHitTime": "Wed Oct 04 2023 11:15:04 GMT+0530 (India Standard Time)",
+      "diffrence": "46 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818149,
+      "time": "October 4 2023, 11:14:37 ",
+      "APIHitTime": "Wed Oct 04 2023 11:15:49 GMT+0530 (India Standard Time)",
+      "diffrence": "86 sec"
+    },
+    "infura": {
+      "blocknumber": 40818136,
+      "time": "October 4 2023, 11:14:09 ",
+      "APIHitTime": "Wed Oct 04 2023 11:15:49 GMT+0530 (India Standard Time)",
+      "diffrence": "28 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818149,
+      "time": "October 4 2023, 11:15:37 ",
+      "APIHitTime": "Wed Oct 04 2023 11:15:49 GMT+0530 (India Standard Time)",
+      "diffrence": "68 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818175,
+      "time": "October 4 2023, 11:16:03 ",
+      "APIHitTime": "Wed Oct 04 2023 11:16:58 GMT+0530 (India Standard Time)",
+      "diffrence": "40 sec"
+    },
+    "infura": {
+      "blocknumber": 40818149,
+      "time": "October 4 2023, 11:14:37 ",
+      "APIHitTime": "Wed Oct 04 2023 11:16:58 GMT+0530 (India Standard Time)",
+      "diffrence": "126 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818175,
+      "time": "October 4 2023, 11:16:45 ",
+      "APIHitTime": "Wed Oct 04 2023 11:16:58 GMT+0530 (India Standard Time)",
+      "diffrence": "52 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818193,
+      "time": "October 4 2023, 11:16:43 ",
+      "APIHitTime": "Wed Oct 04 2023 11:17:55 GMT+0530 (India Standard Time)",
+      "diffrence": "26 sec"
+    },
+    "infura": {
+      "blocknumber": 40818193,
+      "time": "October 4 2023, 11:16:43 ",
+      "APIHitTime": "Wed Oct 04 2023 11:17:55 GMT+0530 (India Standard Time)",
+      "diffrence": "26 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818193,
+      "time": "October 4 2023, 11:17:37 ",
+      "APIHitTime": "Wed Oct 04 2023 11:17:55 GMT+0530 (India Standard Time)",
+      "diffrence": "45 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818206,
+      "time": "October 4 2023, 11:17:09 ",
+      "APIHitTime": "Wed Oct 04 2023 11:18:39 GMT+0530 (India Standard Time)",
+      "diffrence": "68 sec"
+    },
+    "infura": {
+      "blocknumber": 40818206,
+      "time": "October 4 2023, 11:17:09 ",
+      "APIHitTime": "Wed Oct 04 2023 11:18:39 GMT+0530 (India Standard Time)",
+      "diffrence": "68 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818206,
+      "time": "October 4 2023, 11:18:22 ",
+      "APIHitTime": "Wed Oct 04 2023 11:18:39 GMT+0530 (India Standard Time)",
+      "diffrence": "40 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818223,
+      "time": "October 4 2023, 11:18:17 ",
+      "APIHitTime": "Wed Oct 04 2023 11:19:15 GMT+0530 (India Standard Time)",
+      "diffrence": "534 sec"
+    },
+    "infura": {
+      "blocknumber": 40818223,
+      "time": "October 4 2023, 11:18:17 ",
+      "APIHitTime": "Wed Oct 04 2023 11:19:15 GMT+0530 (India Standard Time)",
+      "diffrence": "534 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818223,
+      "time": "October 4 2023, 11:19:02 ",
+      "APIHitTime": "Wed Oct 04 2023 11:19:15 GMT+0530 (India Standard Time)",
+      "diffrence": "561 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818412,
+      "time": "October 4 2023, 11:27:11 ",
+      "APIHitTime": "Wed Oct 04 2023 11:28:39 GMT+0530 (India Standard Time)",
+      "diffrence": "76 sec"
+    },
+    "infura": {
+      "blocknumber": 40818412,
+      "time": "October 4 2023, 11:27:11 ",
+      "APIHitTime": "Wed Oct 04 2023 11:28:39 GMT+0530 (India Standard Time)",
+      "diffrence": "76 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818412,
+      "time": "October 4 2023, 11:28:23 ",
+      "APIHitTime": "Wed Oct 04 2023 11:28:39 GMT+0530 (India Standard Time)",
+      "diffrence": "51 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818432,
+      "time": "October 4 2023, 11:28:27 ",
+      "APIHitTime": "Wed Oct 04 2023 11:29:37 GMT+0530 (India Standard Time)",
+      "diffrence": "26 sec"
+    },
+    "infura": {
+      "blocknumber": 40818432,
+      "time": "October 4 2023, 11:28:27 ",
+      "APIHitTime": "Wed Oct 04 2023 11:29:37 GMT+0530 (India Standard Time)",
+      "diffrence": "26 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818432,
+      "time": "October 4 2023, 11:29:14 ",
+      "APIHitTime": "Wed Oct 04 2023 11:29:37 GMT+0530 (India Standard Time)",
+      "diffrence": "50 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818445,
+      "time": "October 4 2023, 11:28:53 ",
+      "APIHitTime": "Wed Oct 04 2023 11:30:22 GMT+0530 (India Standard Time)",
+      "diffrence": "46 sec"
+    },
+    "infura": {
+      "blocknumber": 40818445,
+      "time": "October 4 2023, 11:28:53 ",
+      "APIHitTime": "Wed Oct 04 2023 11:30:22 GMT+0530 (India Standard Time)",
+      "diffrence": "46 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818445,
+      "time": "October 4 2023, 11:30:04 ",
+      "APIHitTime": "Wed Oct 04 2023 11:30:22 GMT+0530 (India Standard Time)",
+      "diffrence": "28 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818457,
+      "time": "October 4 2023, 11:29:39 ",
+      "APIHitTime": "Wed Oct 04 2023 11:30:48 GMT+0530 (India Standard Time)",
+      "diffrence": "42 sec"
+    },
+    "infura": {
+      "blocknumber": 40818457,
+      "time": "October 4 2023, 11:29:39 ",
+      "APIHitTime": "Wed Oct 04 2023 11:30:48 GMT+0530 (India Standard Time)",
+      "diffrence": "42 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818457,
+      "time": "October 4 2023, 11:30:32 ",
+      "APIHitTime": "Wed Oct 04 2023 11:30:48 GMT+0530 (India Standard Time)",
+      "diffrence": "35 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818471,
+      "time": "October 4 2023, 11:30:21 ",
+      "APIHitTime": "Wed Oct 04 2023 11:31:26 GMT+0530 (India Standard Time)",
+      "diffrence": "48 sec"
+    },
+    "infura": {
+      "blocknumber": 40818471,
+      "time": "October 4 2023, 11:30:21 ",
+      "APIHitTime": "Wed Oct 04 2023 11:31:26 GMT+0530 (India Standard Time)",
+      "diffrence": "0 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818471,
+      "time": "October 4 2023, 11:31:07 ",
+      "APIHitTime": "Wed Oct 04 2023 11:31:26 GMT+0530 (India Standard Time)",
+      "diffrence": "45 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818494,
+      "time": "October 4 2023, 11:31:09 ",
+      "APIHitTime": "Wed Oct 04 2023 11:32:01 GMT+0530 (India Standard Time)",
+      "diffrence": "36 sec"
+    },
+    "infura": {
+      "blocknumber": 40818471,
+      "time": "October 4 2023, 11:30:21 ",
+      "APIHitTime": "Wed Oct 04 2023 11:32:01 GMT+0530 (India Standard Time)",
+      "diffrence": "48 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818494,
+      "time": "October 4 2023, 11:31:52 ",
+      "APIHitTime": "Wed Oct 04 2023 11:32:01 GMT+0530 (India Standard Time)",
+      "diffrence": "69 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818511,
+      "time": "October 4 2023, 11:31:45 ",
+      "APIHitTime": "Wed Oct 04 2023 11:33:12 GMT+0530 (India Standard Time)",
+      "diffrence": "62 sec"
+    },
+    "infura": {
+      "blocknumber": 40818494,
+      "time": "October 4 2023, 11:31:09 ",
+      "APIHitTime": "Wed Oct 04 2023 11:33:12 GMT+0530 (India Standard Time)",
+      "diffrence": "98 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818511,
+      "time": "October 4 2023, 11:33:01 ",
+      "APIHitTime": "Wed Oct 04 2023 11:33:12 GMT+0530 (India Standard Time)",
+      "diffrence": "34 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818526,
+      "time": "October 4 2023, 11:32:47 ",
+      "APIHitTime": "Wed Oct 04 2023 11:33:52 GMT+0530 (India Standard Time)",
+      "diffrence": "46 sec"
+    },
+    "infura": {
+      "blocknumber": 40818526,
+      "time": "October 4 2023, 11:32:47 ",
+      "APIHitTime": "Wed Oct 04 2023 11:33:52 GMT+0530 (India Standard Time)",
+      "diffrence": "0 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818526,
+      "time": "October 4 2023, 11:33:35 ",
+      "APIHitTime": "Wed Oct 04 2023 11:33:52 GMT+0530 (India Standard Time)",
+      "diffrence": "51 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818546,
+      "time": "October 4 2023, 11:33:33 ",
+      "APIHitTime": "Wed Oct 04 2023 11:34:37 GMT+0530 (India Standard Time)",
+      "diffrence": "26 sec"
+    },
+    "infura": {
+      "blocknumber": 40818526,
+      "time": "October 4 2023, 11:32:47 ",
+      "APIHitTime": "Wed Oct 04 2023 11:34:37 GMT+0530 (India Standard Time)",
+      "diffrence": "72 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818546,
+      "time": "October 4 2023, 11:34:26 ",
+      "APIHitTime": "Wed Oct 04 2023 11:34:37 GMT+0530 (India Standard Time)",
+      "diffrence": "51 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818559,
+      "time": "October 4 2023, 11:33:59 ",
+      "APIHitTime": "Wed Oct 04 2023 11:35:32 GMT+0530 (India Standard Time)",
+      "diffrence": "74 sec"
+    },
+    "infura": {
+      "blocknumber": 40818559,
+      "time": "October 4 2023, 11:33:59 ",
+      "APIHitTime": "Wed Oct 04 2023 11:35:32 GMT+0530 (India Standard Time)",
+      "diffrence": "0 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818559,
+      "time": "October 4 2023, 11:35:17 ",
+      "APIHitTime": "Wed Oct 04 2023 11:35:32 GMT+0530 (India Standard Time)",
+      "diffrence": "46 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818578,
+      "time": "October 4 2023, 11:35:13 ",
+      "APIHitTime": "Wed Oct 04 2023 11:36:19 GMT+0530 (India Standard Time)",
+      "diffrence": "26 sec"
+    },
+    "infura": {
+      "blocknumber": 40818559,
+      "time": "October 4 2023, 11:33:59 ",
+      "APIHitTime": "Wed Oct 04 2023 11:36:19 GMT+0530 (India Standard Time)",
+      "diffrence": "74 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818578,
+      "time": "October 4 2023, 11:36:03 ",
+      "APIHitTime": "Wed Oct 04 2023 11:36:19 GMT+0530 (India Standard Time)",
+      "diffrence": "52 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818591,
+      "time": "October 4 2023, 11:35:39 ",
+      "APIHitTime": "Wed Oct 04 2023 11:37:11 GMT+0530 (India Standard Time)",
+      "diffrence": "66 sec"
+    },
+    "infura": {
+      "blocknumber": 40818578,
+      "time": "October 4 2023, 11:35:13 ",
+      "APIHitTime": "Wed Oct 04 2023 11:37:11 GMT+0530 (India Standard Time)",
+      "diffrence": "26 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818591,
+      "time": "October 4 2023, 11:36:55 ",
+      "APIHitTime": "Wed Oct 04 2023 11:37:11 GMT+0530 (India Standard Time)",
+      "diffrence": "40 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818607,
+      "time": "October 4 2023, 11:36:45 ",
+      "APIHitTime": "Wed Oct 04 2023 11:37:45 GMT+0530 (India Standard Time)",
+      "diffrence": "34 sec"
+    },
+    "infura": {
+      "blocknumber": 40818591,
+      "time": "October 4 2023, 11:35:39 ",
+      "APIHitTime": "Wed Oct 04 2023 11:37:45 GMT+0530 (India Standard Time)",
+      "diffrence": "100 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818607,
+      "time": "October 4 2023, 11:37:35 ",
+      "APIHitTime": "Wed Oct 04 2023 11:37:45 GMT+0530 (India Standard Time)",
+      "diffrence": "63 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818623,
+      "time": "October 4 2023, 11:37:19 ",
+      "APIHitTime": "Wed Oct 04 2023 11:38:48 GMT+0530 (India Standard Time)",
+      "diffrence": "58 sec"
+    },
+    "infura": {
+      "blocknumber": 40818623,
+      "time": "October 4 2023, 11:37:19 ",
+      "APIHitTime": "Wed Oct 04 2023 11:38:48 GMT+0530 (India Standard Time)",
+      "diffrence": "0 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818623,
+      "time": "October 4 2023, 11:38:38 ",
+      "APIHitTime": "Wed Oct 04 2023 11:38:48 GMT+0530 (India Standard Time)",
+      "diffrence": "28 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818637,
+      "time": "October 4 2023, 11:38:17 ",
+      "APIHitTime": "Wed Oct 04 2023 11:39:18 GMT+0530 (India Standard Time)",
+      "diffrence": "30 sec"
+    },
+    "infura": {
+      "blocknumber": 40818623,
+      "time": "October 4 2023, 11:37:19 ",
+      "APIHitTime": "Wed Oct 04 2023 11:39:18 GMT+0530 (India Standard Time)",
+      "diffrence": "88 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818637,
+      "time": "October 4 2023, 11:39:06 ",
+      "APIHitTime": "Wed Oct 04 2023 11:39:18 GMT+0530 (India Standard Time)",
+      "diffrence": "23 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818649,
+      "time": "October 4 2023, 11:38:47 ",
+      "APIHitTime": "Wed Oct 04 2023 11:39:47 GMT+0530 (India Standard Time)",
+      "diffrence": "50 sec"
+    },
+    "infura": {
+      "blocknumber": 40818649,
+      "time": "October 4 2023, 11:38:47 ",
+      "APIHitTime": "Wed Oct 04 2023 11:39:47 GMT+0530 (India Standard Time)",
+      "diffrence": "50 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818649,
+      "time": "October 4 2023, 11:39:29 ",
+      "APIHitTime": "Wed Oct 04 2023 11:39:47 GMT+0530 (India Standard Time)",
+      "diffrence": "52 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818672,
+      "time": "October 4 2023, 11:39:37 ",
+      "APIHitTime": "Wed Oct 04 2023 11:40:39 GMT+0530 (India Standard Time)",
+      "diffrence": "26 sec"
+    },
+    "infura": {
+      "blocknumber": 40818672,
+      "time": "October 4 2023, 11:39:37 ",
+      "APIHitTime": "Wed Oct 04 2023 11:40:39 GMT+0530 (India Standard Time)",
+      "diffrence": "26 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818672,
+      "time": "October 4 2023, 11:40:21 ",
+      "APIHitTime": "Wed Oct 04 2023 11:40:39 GMT+0530 (India Standard Time)",
+      "diffrence": "57 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818685,
+      "time": "October 4 2023, 11:40:03 ",
+      "APIHitTime": "Wed Oct 04 2023 11:41:37 GMT+0530 (India Standard Time)",
+      "diffrence": "66 sec"
+    },
+    "infura": {
+      "blocknumber": 40818685,
+      "time": "October 4 2023, 11:40:03 ",
+      "APIHitTime": "Wed Oct 04 2023 11:41:37 GMT+0530 (India Standard Time)",
+      "diffrence": "66 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818685,
+      "time": "October 4 2023, 11:41:18 ",
+      "APIHitTime": "Wed Oct 04 2023 11:41:37 GMT+0530 (India Standard Time)",
+      "diffrence": "35 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818702,
+      "time": "October 4 2023, 11:41:09 ",
+      "APIHitTime": "Wed Oct 04 2023 11:42:11 GMT+0530 (India Standard Time)",
+      "diffrence": "38 sec"
+    },
+    "infura": {
+      "blocknumber": 40818702,
+      "time": "October 4 2023, 11:41:09 ",
+      "APIHitTime": "Wed Oct 04 2023 11:42:11 GMT+0530 (India Standard Time)",
+      "diffrence": "38 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818702,
+      "time": "October 4 2023, 11:41:53 ",
+      "APIHitTime": "Wed Oct 04 2023 11:42:11 GMT+0530 (India Standard Time)",
+      "diffrence": "40 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818719,
+      "time": "October 4 2023, 11:41:47 ",
+      "APIHitTime": "Wed Oct 04 2023 11:42:49 GMT+0530 (India Standard Time)",
+      "diffrence": "32 sec"
+    },
+    "infura": {
+      "blocknumber": 40818719,
+      "time": "October 4 2023, 11:41:47 ",
+      "APIHitTime": "Wed Oct 04 2023 11:42:49 GMT+0530 (India Standard Time)",
+      "diffrence": "32 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818719,
+      "time": "October 4 2023, 11:42:33 ",
+      "APIHitTime": "Wed Oct 04 2023 11:42:49 GMT+0530 (India Standard Time)",
+      "diffrence": "63 sec"
+    }
+  },
+  {
+    "quicknode": {
+      "blocknumber": 40818734,
+      "time": "October 4 2023, 11:42:19 ",
+      "APIHitTime": "Wed Oct 04 2023 11:43:53 GMT+0530 (India Standard Time)",
+      "diffrence": "48 sec"
+    },
+    "infura": {
+      "blocknumber": 40818734,
+      "time": "October 4 2023, 11:42:19 ",
+      "APIHitTime": "Wed Oct 04 2023 11:43:53 GMT+0530 (India Standard Time)",
+      "diffrence": "0 sec"
+    },
+    "heimdallApi": {
+      "blocknumber": 40818734,
+      "time": "October 4 2023, 11:43:36 ",
+      "APIHitTime": "Wed Oct 04 2023 11:43:53 GMT+0530 (India Standard Time)",
+      "diffrence": "23 sec"
+    }
+  }
+]
